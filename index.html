@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Wikipedia Search</title>
+
+  <!-- Styling -->
+  <link rel="stylesheet" type="text/css" href="./normalize.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <script src="https://use.fontawesome.com/a90fa53918.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Rubik|Libre+Franklin:700" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./style.css">
+
+</head>
+
+<body>
+  <div class="container text-center mt-3">
+    <h1>Search Wikipedia<i class="fa fa-search" aria-hidden="true"></i></h1>
+
+    <form id="search">
+      <input type="text" required placeholder="Lookup something or get a random article" class="input-box" id="search-box">
+
+      <div class="buttons mt-3">
+        <input type="submit" value="Search" id="btn-search">
+        <button type="button" id="btn-random">Random Article</button>
+      </div>
+
+    </form>
+
+  </div>
+
+  <div class="container" id="search-results"></div>
+
+<div class="container-fluid text-center mt-3 footer">
+    <p>Made by <a href="http://pamela.io" target="blank">Pam De Silva</a> for  <a href="http://www.freecodecamp.com" target="blank">Free Code Camp.</p>
+  </div>
+
+  <!-- JavaScript Files -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="./app.js"></script>
+
+
+</body>
+
+</html>
