@@ -21,7 +21,7 @@ h1 {
   margin-top: 15%;
   margin-bottom: 5%;
   color: #4A4A48;
-  text-shadow: 2px 4px 10px rgba(0,0,0,0.2);
+  text-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .fa-search {
@@ -37,15 +37,13 @@ h1 {
 #btn-search {
   background: white;
   width: 10%;
-
 }
 
-#btn-search,
-#btn-random {
+#btn-search, #btn-random {
   color: #FFBF46;
   border: none;
   margin-right: .5em;
-  box-shadow: 2px 4px 10px rgba(0,0,0,0.2);
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 h2 {
@@ -53,8 +51,7 @@ h2 {
   font-family: 'Libre Franklin', sans-serif;
 }
 
-a, a:hover
-{
+a, a:hover {
   text-decoration: none;
 }
 
@@ -66,7 +63,7 @@ a, a:hover
   background: #4A4A48;
   padding: 2em;
   margin-top: 1.6em;
-  box-shadow: 2px 4px 10px rgba(0,0,0,0.2);
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .articles:hover {
@@ -92,8 +89,8 @@ a, a:hover
   color: #4A4A48;
   font-size: .8em;
   margin-bottom: -1em;
-  padding-top:.2em;
-  box-shadow: 2px -4px 10px rgba(0,0,0,0.2);
+  padding-top: .2em;
+  box-shadow: 2px -4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .footer a {
