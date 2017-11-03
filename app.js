@@ -19,10 +19,18 @@ $(document).ready(function() {
 				/// Display search results on page
 				if (articles.length > 0) {
 					for (var i = 0; i < articles.length; i++) {
-					$(`<div><a href="http://en.wikipedia.org/?curid=${articles[i].pageid}" target="_blank"><div><h2> ${articles[i].title}</h2><p>${articles[i].snippet}...</p></div></a></div>`).appendTo('#search-results').addClass('articles');
+					$(`<div><a href="http://en.wikipedia.org/?curid=${articles[i].pageid}" target="_blank">
+					<div>
+					<h2>${articles[i].title}</h2>
+					<p>${articles[i].snippet}...</p>
+					</div></a></div>`)
+					.appendTo('#search-results')
+					.addClass('articles');
 					}
 				} else {
-					$(`<div>Whoops, no results found for <strong>"${string}"</strong>. Try searching again.</div>`).appendTo('#search-results').addClass('noresults');
+					$(`<div>Whoops, no results found for <strong>"${string}"</strong>.Try searching again.</div>`)
+					.appendTo('#search-results')
+					.addClass('noresults');
 				}
 
 			},
