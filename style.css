@@ -24,9 +24,9 @@ h1 {
   text-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-.fa-search {
+.wiki-logo {
   margin-left: 0.3em;
-  font-size: 1.2em;
+  width: 10%;
 }
 
 #btn-random {
