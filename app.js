@@ -35,7 +35,7 @@ $(document).ready(function() {
 
 			},
 			error: function() {
-				$(`<div>Sorry, Wikipedia isn't accessible at the moment</div>`)
+				$(`<div>Sorry, Wikipedia isn't accessible at the moment.</div>`)
 				.appendTo('#search-results')
 				.addClass('noresults');
 			}
