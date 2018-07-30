@@ -1,5 +1,7 @@
 # Wikipedia Search App 🔍
 
-Search for articles on Wikipedia or open a random article in a new tab. [View demo](http://pamela.io/fcc-wikipedia/).
+Search for articles on Wikipedia or open a random article in a new tab. [View demo](http://wikipedia.pamela.io).
 
 Written in HTML, CSS & JavaScript.
+
+A project for [FreeCodeCamp](freecodecamp.org).
